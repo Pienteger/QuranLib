@@ -1,0 +1,22 @@
+﻿@page "/counter"
+@using QuranLib
+
+<PageTitle>Counter</PageTitle>
+
+@*@foreach (var ayah in quran.GetChapter(ChapterName.AlAhzab).Verses)
+    {
+    <h4>@ayah</h4>
+    }*@
+<br />
+<h1>@value</h1>
+@code {
+    private static QuranInstance? quran;
+    private static Random random = new Random();
+    private static string value;
+    protected override void OnInitialized()
+    {
+        quran = new QuranInstance(autoLoad: true,scriptType:ScriptType.WithTashkil);
+        value = quran.GetChapter(ChapterName.AlIkhlas).Verses.ToList()[random.Next(3)].Text;
+        base.OnInitialized();
+    }
+}
