@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Pienteger.QuranLib</id>
+    <version>4.5.0</version>
+    <title>Pienteger.QuranLib</title>
+    <authors>Mahmudul Hasan</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/pienteger/quranlib</projectUrl>
+    <description>A portable Quran library written in .NET Framework that gives read-only access to the entire Holy Quran.</description>
+    <releaseNotes>Fixed leading Bismillah.</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>Holy Quran</tags>
+  </metadata>
+</package>

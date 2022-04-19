@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel;
 using System.Reflection;
-
 namespace QuranLib
 {
     internal static class Utils

@@ -1,6 +1,5 @@
 ﻿namespace QuranLib
 {
-
     public enum PlaceOfRevelation
     {
         Makkah = 1,
