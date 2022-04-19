@@ -60,7 +60,15 @@ namespace QuranLib
         {
             return GetVerse((byte)chapter, verseNumber);
         }
+        public List<Verse> GetVerses(ChapterName chapter)
+        {
+            return baseVerseList.Where(a => a.Chapter == chapter).ToList();
+        }
 
+        public List<Verse> GetVerses(ushort chapterNumber)
+        {
+            return GetVerses((ChapterName)chapterNumber);
+        }
         public ImmutableList<Verse> GetVerses(byte chapter, ushort startVerse, ushort endVerse)
         {
             return baseVerseList.Where(a =>

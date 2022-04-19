@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace QuranLib
 {
@@ -24,7 +25,7 @@ namespace QuranLib
             set => verses = value;
         }
 
-        public ushort TotalVerse { get; set; }
+        public ushort TotalVerse => (ushort)Verses.Count();
         public byte ChapterNumber { get; set; }
         public PlaceOfRevelation PlaceOfRevelation => Utils.GetPlaceOfRevelation(ChapterNumber);
         public string JuzNumbers => string.Join(", ", Juz);

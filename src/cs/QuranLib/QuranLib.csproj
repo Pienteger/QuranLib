@@ -7,7 +7,7 @@
 		<OutputType>Library</OutputType>
 
 		<PackageId>Pienteger.QuranLib</PackageId>
-		<Version>6.0.1</Version>
+		<Version>6.0.2</Version>
 		<Authors>Mahmudul Hasan</Authors>
 		<Company>Pienteger</Company>
 		<Copyright>Pienteger</Copyright>
@@ -17,7 +17,7 @@
 		<PackageTags>Quran, Holy Quran</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<NeutralLanguage>en</NeutralLanguage>
-		<PackageReleaseNotes>Fixed leading Bismillah.</PackageReleaseNotes>
+		<PackageReleaseNotes>Fixed verse count.</PackageReleaseNotes>
 		<RepositoryUrl>https://github.com/pienteger/quranlib</RepositoryUrl>
 	</PropertyGroup>
 	<ItemGroup>

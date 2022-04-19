@@ -8,15 +8,17 @@
     <h4>@ayah</h4>
     }*@
 <br />
-<h1>@value</h1>
+<h1>@randomAyah</h1>
 @code {
     private static QuranInstance? quran;
-    private static Random random = new Random();
-    private static string value;
+    private static Random random = new();
+    private static string randomAyah;
     protected override void OnInitialized()
     {
-        quran = new QuranInstance(autoLoad: true,scriptType:ScriptType.WithTashkil);
-        value = quran.GetChapter(ChapterName.AlIkhlas).Verses.ToList()[random.Next(3)].Text;
+        QuranInstance quran = new QuranInstance();
+        quran.LoadChapters(1, 5);
+        Chapter? chapter = quran.GetChapter(1);
+        randomAyah = chapter.Verses.ToList()[random.Next(0, chapter.TotalVerse)].Text;
         base.OnInitialized();
     }
 }
