@@ -118,346 +118,346 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="UthmaniWithTashkil__100_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (100).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__100_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (100).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__101_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (101).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__101_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (101).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__102_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (102).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__102_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (102).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__103_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (103).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__103_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (103).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__104_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (104).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__104_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (104).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__105_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (105).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__105_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (105).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__106_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (106).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__106_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (106).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__107_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (107).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__107_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (107).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__108_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (108).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__108_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (108).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__109_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (109).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__109_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (109).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (10).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (10).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__110_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (110).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__110_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (110).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__111_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (111).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__111_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (111).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__112_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (112).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__112_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (112).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__113_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (113).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__113_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (113).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__114_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (114).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__114_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (114).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (11).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (11).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (12).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (12).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (13).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (13).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__14_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (14).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__14_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (14).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__15_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (15).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__15_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (15).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (16).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (16).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__17_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (17).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__17_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (17).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__18_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (18).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__18_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (18).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__19_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (19).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__19_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (19).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (1).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (1).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__20_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (20).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__20_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (20).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__21_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (21).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__21_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (21).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__22_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (22).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__22_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (22).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__23_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (23).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__23_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (23).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__24_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (24).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__24_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (24).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__25_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (25).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__25_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (25).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__26_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (26).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__26_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (26).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__27_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (27).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__27_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (27).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__28_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (28).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__28_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (28).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__29_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (29).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__29_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (29).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (2).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (2).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__30_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (30).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__30_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (30).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__31_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (31).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__31_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (31).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__32_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (32).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__32_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (32).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__33_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (33).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__33_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (33).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__34_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (34).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__34_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (34).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__35_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (35).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__35_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (35).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__36_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (36).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__36_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (36).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__37_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (37).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__37_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (37).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__38_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (38).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__38_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (38).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__39_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (39).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__39_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (39).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (3).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (3).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__40_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (40).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__40_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (40).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__41_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (41).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__41_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (41).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__42_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (42).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__42_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (42).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__43_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (43).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__43_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (43).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__44_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (44).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__44_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (44).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__45_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (45).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__45_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (45).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__46_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (46).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__46_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (46).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__47_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (47).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__47_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (47).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__48_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (48).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__48_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (48).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__49_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (49).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__49_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (49).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (4).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (4).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__50_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (50).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__50_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (50).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__51_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (51).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__51_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (51).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__52_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (52).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__52_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (52).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__53_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (53).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__53_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (53).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__54_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (54).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__54_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (54).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__55_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (55).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__55_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (55).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__56_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (56).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__56_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (56).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__57_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (57).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__57_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (57).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__58_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (58).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__58_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (58).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__59_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (59).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__59_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (59).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (5).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (5).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__60_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (60).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__60_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (60).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__61_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (61).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__61_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (61).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__62_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (62).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__62_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (62).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__63_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (63).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__63_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (63).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__64_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (64).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__64_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (64).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__65_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (65).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__65_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (65).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__66_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (66).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__66_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (66).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__67_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (67).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__67_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (67).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__68_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (68).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__68_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (68).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__69_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (69).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__69_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (69).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (6).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (6).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__70_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (70).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__70_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (70).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__71_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (71).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__71_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (71).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__72_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (72).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__72_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (72).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__73_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (73).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__73_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (73).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__74_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (74).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__74_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (74).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__75_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (75).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__75_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (75).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__76_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (76).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__76_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (76).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__77_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (77).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__77_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (77).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__78_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (78).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__78_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (78).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__79_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (79).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__79_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (79).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (7).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (7).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (80).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (80).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__81_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (81).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__81_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (81).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__82_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (82).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__82_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (82).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__83_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (83).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__83_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (83).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__84_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (84).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__84_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (84).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__85_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (85).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__85_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (85).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__86_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (86).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__86_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (86).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__87_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (87).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__87_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (87).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__88_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (88).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__88_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (88).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__89_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (89).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__89_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (89).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (8).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (8).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__90_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (90).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__90_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (90).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__91_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (91).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__91_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (91).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__92_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (92).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__92_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (92).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__93_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (93).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__93_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (93).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__94_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (94).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__94_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (94).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__95_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (95).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__95_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (95).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__96_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (96).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__96_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (96).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__97_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (97).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__97_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (97).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__98_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (98).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__98_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (98).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__99_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (99).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__99_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (99).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="UthmaniWithTashkil__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\UthmaniWithTashkil (9).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Simple__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Simple (9).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
 </root>

@@ -20,5 +20,7 @@ namespace QuranLib
             // return the text with arabic encoding
             return Encoding.UTF8.GetString(Encoding.UTF8.GetBytes(Text));
         }
+
+        public SajdaType SajdaType => Utils.GetSajdaType(Chapter, VerseNumber);
     }
 }

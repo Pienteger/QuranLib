@@ -2,7 +2,29 @@
 
 namespace QuranLib
 {
+    public enum ScriptType
+    {
+        Clean = 1,
+        WithTashkil = 2
+    }
+    public enum PlaceOfRevelation
+    {
+        Makkah = 1,
+        Madinah = 2
+    }
+    public enum SajdaType
+    {
+        None = 0,
+        Obligatory = 1,
+        Recommended = 2
+    }
 
+    public enum ChapterNameType
+    {
+        Normal = 1,
+        ArabicFont = 2,
+        EnglishName = 3
+    }
     public enum ChapterName
     {
         [Description("Al-Fatiha")] AlFatihah = 1,

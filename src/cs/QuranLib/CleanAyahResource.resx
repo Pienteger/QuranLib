@@ -118,346 +118,346 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__100_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (100).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\10.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__101_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (101).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\100.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__102_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (102).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_101" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\101.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__103_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (103).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_102" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\102.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__104_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (104).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_103" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\103.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__105_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (105).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_104" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\104.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__106_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (106).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_105" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\105.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__107_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (107).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_106" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\106.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__108_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (108).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_107" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\107.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__109_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (109).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_108" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\108.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (10).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_109" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\109.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__110_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (110).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\11.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__111_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (111).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_110" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\110.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__112_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (112).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_111" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\111.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__113_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (113).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_112" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\112.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__114_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (114).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_113" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\113.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (11).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_114" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\114.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (12).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\12.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (13).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\13.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__14_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (14).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\14.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__15_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (15).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\15.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (16).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\16.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__17_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (17).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\17.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__18_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (18).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\18.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__19_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (19).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\19.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (1).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__20_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (20).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\20.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__21_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (21).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\21.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__22_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (22).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\22.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__23_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (23).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\23.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__24_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (24).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\24.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__25_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (25).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\25.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__26_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (26).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\26.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__27_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (27).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\27.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__28_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (28).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\28.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__29_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (29).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\29.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (2).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__30_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (30).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\30.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__31_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (31).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\31.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__32_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (32).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\32.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__33_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (33).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\33.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__34_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (34).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\34.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__35_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (35).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\35.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__36_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (36).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\36.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__37_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (37).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\37.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__38_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (38).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\38.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__39_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (39).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\39.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (3).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__40_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (40).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\40.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__41_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (41).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\41.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__42_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (42).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\42.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__43_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (43).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\43.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__44_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (44).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\44.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__45_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (45).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\45.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__46_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (46).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\46.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__47_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (47).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\47.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__48_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (48).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\48.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__49_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (49).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_49" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\49.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (4).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__50_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (50).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\50.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__51_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (51).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\51.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__52_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (52).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\52.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__53_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (53).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_53" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\53.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__54_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (54).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_54" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\54.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__55_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (55).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_55" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\55.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__56_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (56).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_56" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\56.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__57_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (57).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_57" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\57.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__58_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (58).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_58" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\58.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__59_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (59).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_59" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\59.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (5).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__60_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (60).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_60" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\60.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__61_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (61).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_61" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\61.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__62_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (62).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_62" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\62.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__63_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (63).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_63" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\63.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__64_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (64).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\64.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__65_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (65).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_65" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\65.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__66_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (66).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_66" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\66.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__67_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (67).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_67" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\67.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__68_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (68).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_68" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\68.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__69_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (69).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_69" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\69.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (6).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\7.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__70_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (70).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_70" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\70.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__71_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (71).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_71" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\71.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__72_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (72).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_72" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\72.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__73_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (73).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_73" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\73.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__74_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (74).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_74" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\74.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__75_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (75).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_75" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\75.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__76_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (76).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_76" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\76.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__77_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (77).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_77" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\77.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__78_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (78).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_78" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\78.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__79_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (79).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_79" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\79.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (7).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\8.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (80).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\80.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__81_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (81).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_81" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\81.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__82_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (82).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_82" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\82.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__83_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (83).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_83" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\83.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__84_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (84).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_84" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\84.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__85_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (85).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_85" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\85.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__86_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (86).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_86" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\86.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__87_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (87).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_87" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\87.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__88_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (88).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_88" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\88.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__89_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (89).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_89" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\89.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (8).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\9.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__90_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (90).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_90" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\90.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__91_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (91).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_91" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\91.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__92_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (92).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_92" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\92.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__93_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (93).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_93" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\93.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__94_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (94).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_94" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\94.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__95_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (95).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_95" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\95.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__96_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (96).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\96.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__97_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (97).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_97" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\97.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__98_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (98).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_98" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\98.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__99_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (99).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="_99" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\99.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Clean__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clean (9).txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
 </root>

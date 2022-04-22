@@ -1,0 +1,26 @@
+﻿@page "/QuranTestPage"
+@using QuranLib
+
+<PageTitle>Counter</PageTitle>
+
+<h1>@quran.GetChapter(22).ChapterName</h1>
+<h1>@quran.GetChapter(22).ChapterNameArabic</h1>
+<h1>@quran.GetChapter(22).ChapterNameEnglish</h1>
+<h1>@quran.GetChapter(22).Order</h1>
+@foreach (Verse ayah in quran.GetChapter(22).Verses)
+{
+    
+    <h4 dir="rtl">@ayah.VerseNumber - @ayah.Text - @ayah.SajdaType</h4>
+}
+
+@code {
+    private static QuranInstance? quran;
+    private static Random random = new();
+    private static string randomAyah;
+    protected override void OnInitialized()
+    {
+        quran = new QuranInstance(scriptType: ScriptType.WithTashkil);
+        quran.LoadChapters(1, 9);
+        base.OnInitialized();
+    }
+}
