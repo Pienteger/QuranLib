@@ -2,7 +2,7 @@
 
 namespace QuranLib
 {
-
+    
     public class QuranInstance
     {
         public QuranInstance(ScriptType scriptType = ScriptType.Clean, bool autoLoad = false, byte start = 1,
