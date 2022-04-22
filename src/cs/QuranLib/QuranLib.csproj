@@ -5,259 +5,26 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<OutputType>Library</OutputType>
-
 		<PackageId>Pienteger.QuranLib</PackageId>
-		<Version>6.0.2</Version>
+		<Version>6.0.3</Version>
 		<Authors>Mahmudul Hasan</Authors>
 		<Company>Pienteger</Company>
-		<Copyright>Pienteger</Copyright>
+		<Copyright>Copyright © Pienteger 2022</Copyright>
 		<PackageProjectUrl>https://github.com/Pienteger/QuranLib</PackageProjectUrl>
-		<Description>A portable Quran library that gives read-only access to the entire Holy Quran.</Description>
+		<Description>A portable Quran library that gives access to the entire Holy Quran.</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageTags>Quran, Holy Quran</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<NeutralLanguage>en</NeutralLanguage>
-		<PackageReleaseNotes>Fixed verse count.</PackageReleaseNotes>
+		<PackageReleaseNotes>Replaced the text with tanzil.net's script because it contains stop marks for better readability.</PackageReleaseNotes>
 		<RepositoryUrl>https://github.com/pienteger/quranlib</RepositoryUrl>
 	</PropertyGroup>
-	<ItemGroup>
-		<None Remove="TXTS\1.txt" />
-		<None Remove="TXTS\10.txt" />
-		<None Remove="TXTS\100.txt" />
-		<None Remove="TXTS\101.txt" />
-		<None Remove="TXTS\102.txt" />
-		<None Remove="TXTS\103.txt" />
-		<None Remove="TXTS\104.txt" />
-		<None Remove="TXTS\105.txt" />
-		<None Remove="TXTS\106.txt" />
-		<None Remove="TXTS\107.txt" />
-		<None Remove="TXTS\108.txt" />
-		<None Remove="TXTS\109.txt" />
-		<None Remove="TXTS\11.txt" />
-		<None Remove="TXTS\110.txt" />
-		<None Remove="TXTS\111.txt" />
-		<None Remove="TXTS\112.txt" />
-		<None Remove="TXTS\113.txt" />
-		<None Remove="TXTS\114.txt" />
-		<None Remove="TXTS\12.txt" />
-		<None Remove="TXTS\13.txt" />
-		<None Remove="TXTS\14.txt" />
-		<None Remove="TXTS\15.txt" />
-		<None Remove="TXTS\16.txt" />
-		<None Remove="TXTS\17.txt" />
-		<None Remove="TXTS\18.txt" />
-		<None Remove="TXTS\19.txt" />
-		<None Remove="TXTS\2.txt" />
-		<None Remove="TXTS\20.txt" />
-		<None Remove="TXTS\21.txt" />
-		<None Remove="TXTS\22.txt" />
-		<None Remove="TXTS\23.txt" />
-		<None Remove="TXTS\24.txt" />
-		<None Remove="TXTS\25.txt" />
-		<None Remove="TXTS\26.txt" />
-		<None Remove="TXTS\27.txt" />
-		<None Remove="TXTS\28.txt" />
-		<None Remove="TXTS\29.txt" />
-		<None Remove="TXTS\3.txt" />
-		<None Remove="TXTS\30.txt" />
-		<None Remove="TXTS\31.txt" />
-		<None Remove="TXTS\32.txt" />
-		<None Remove="TXTS\33.txt" />
-		<None Remove="TXTS\34.txt" />
-		<None Remove="TXTS\35.txt" />
-		<None Remove="TXTS\36.txt" />
-		<None Remove="TXTS\37.txt" />
-		<None Remove="TXTS\38.txt" />
-		<None Remove="TXTS\39.txt" />
-		<None Remove="TXTS\4.txt" />
-		<None Remove="TXTS\40.txt" />
-		<None Remove="TXTS\41.txt" />
-		<None Remove="TXTS\42.txt" />
-		<None Remove="TXTS\43.txt" />
-		<None Remove="TXTS\44.txt" />
-		<None Remove="TXTS\45.txt" />
-		<None Remove="TXTS\46.txt" />
-		<None Remove="TXTS\47.txt" />
-		<None Remove="TXTS\48.txt" />
-		<None Remove="TXTS\49.txt" />
-		<None Remove="TXTS\5.txt" />
-		<None Remove="TXTS\50.txt" />
-		<None Remove="TXTS\51.txt" />
-		<None Remove="TXTS\52.txt" />
-		<None Remove="TXTS\53.txt" />
-		<None Remove="TXTS\54.txt" />
-		<None Remove="TXTS\55.txt" />
-		<None Remove="TXTS\56.txt" />
-		<None Remove="TXTS\57.txt" />
-		<None Remove="TXTS\58.txt" />
-		<None Remove="TXTS\59.txt" />
-		<None Remove="TXTS\6.txt" />
-		<None Remove="TXTS\60.txt" />
-		<None Remove="TXTS\61.txt" />
-		<None Remove="TXTS\62.txt" />
-		<None Remove="TXTS\63.txt" />
-		<None Remove="TXTS\64.txt" />
-		<None Remove="TXTS\65.txt" />
-		<None Remove="TXTS\66.txt" />
-		<None Remove="TXTS\67.txt" />
-		<None Remove="TXTS\68.txt" />
-		<None Remove="TXTS\69.txt" />
-		<None Remove="TXTS\7.txt" />
-		<None Remove="TXTS\70.txt" />
-		<None Remove="TXTS\71.txt" />
-		<None Remove="TXTS\72.txt" />
-		<None Remove="TXTS\73.txt" />
-		<None Remove="TXTS\74.txt" />
-		<None Remove="TXTS\75.txt" />
-		<None Remove="TXTS\76.txt" />
-		<None Remove="TXTS\77.txt" />
-		<None Remove="TXTS\78.txt" />
-		<None Remove="TXTS\79.txt" />
-		<None Remove="TXTS\8.txt" />
-		<None Remove="TXTS\80.txt" />
-		<None Remove="TXTS\81.txt" />
-		<None Remove="TXTS\82.txt" />
-		<None Remove="TXTS\83.txt" />
-		<None Remove="TXTS\84.txt" />
-		<None Remove="TXTS\85.txt" />
-		<None Remove="TXTS\86.txt" />
-		<None Remove="TXTS\87.txt" />
-		<None Remove="TXTS\88.txt" />
-		<None Remove="TXTS\89.txt" />
-		<None Remove="TXTS\9.txt" />
-		<None Remove="TXTS\90.txt" />
-		<None Remove="TXTS\91.txt" />
-		<None Remove="TXTS\92.txt" />
-		<None Remove="TXTS\93.txt" />
-		<None Remove="TXTS\94.txt" />
-		<None Remove="TXTS\95.txt" />
-		<None Remove="TXTS\96.txt" />
-		<None Remove="TXTS\97.txt" />
-		<None Remove="TXTS\98.txt" />
-		<None Remove="TXTS\99.txt" />
-	</ItemGroup>
-	<ItemGroup>
-	  <None Include="..\README.md">
-	    <Pack>True</Pack>
-	    <PackagePath>\</PackagePath>
-	  </None>
-	</ItemGroup>
 
 	<ItemGroup>
-		<Resource Include="TXTS\1.txt" />
-		<Resource Include="TXTS\10.txt" />
-		<Resource Include="TXTS\100.txt" />
-		<Resource Include="TXTS\101.txt" />
-		<Resource Include="TXTS\102.txt" />
-		<Resource Include="TXTS\103.txt" />
-		<Resource Include="TXTS\104.txt" />
-		<Resource Include="TXTS\105.txt" />
-		<Resource Include="TXTS\106.txt" />
-		<Resource Include="TXTS\107.txt" />
-		<Resource Include="TXTS\108.txt" />
-		<Resource Include="TXTS\109.txt" />
-		<Resource Include="TXTS\11.txt" />
-		<Resource Include="TXTS\110.txt" />
-		<Resource Include="TXTS\111.txt" />
-		<Resource Include="TXTS\112.txt" />
-		<Resource Include="TXTS\113.txt" />
-		<Resource Include="TXTS\114.txt" />
-		<Resource Include="TXTS\12.txt" />
-		<Resource Include="TXTS\13.txt" />
-		<Resource Include="TXTS\14.txt" />
-		<Resource Include="TXTS\15.txt" />
-		<Resource Include="TXTS\16.txt" />
-		<Resource Include="TXTS\17.txt" />
-		<Resource Include="TXTS\18.txt" />
-		<Resource Include="TXTS\19.txt" />
-		<Resource Include="TXTS\2.txt" />
-		<Resource Include="TXTS\20.txt" />
-		<Resource Include="TXTS\21.txt" />
-		<Resource Include="TXTS\22.txt" />
-		<Resource Include="TXTS\23.txt" />
-		<Resource Include="TXTS\24.txt" />
-		<Resource Include="TXTS\25.txt" />
-		<Resource Include="TXTS\26.txt" />
-		<Resource Include="TXTS\27.txt" />
-		<Resource Include="TXTS\28.txt" />
-		<Resource Include="TXTS\29.txt" />
-		<Resource Include="TXTS\3.txt" />
-		<Resource Include="TXTS\30.txt" />
-		<Resource Include="TXTS\31.txt" />
-		<Resource Include="TXTS\32.txt" />
-		<Resource Include="TXTS\33.txt" />
-		<Resource Include="TXTS\34.txt" />
-		<Resource Include="TXTS\35.txt" />
-		<Resource Include="TXTS\36.txt" />
-		<Resource Include="TXTS\37.txt" />
-		<Resource Include="TXTS\38.txt" />
-		<Resource Include="TXTS\39.txt" />
-		<Resource Include="TXTS\4.txt" />
-		<Resource Include="TXTS\40.txt" />
-		<Resource Include="TXTS\41.txt" />
-		<Resource Include="TXTS\42.txt" />
-		<Resource Include="TXTS\43.txt" />
-		<Resource Include="TXTS\44.txt" />
-		<Resource Include="TXTS\45.txt" />
-		<Resource Include="TXTS\46.txt" />
-		<Resource Include="TXTS\47.txt" />
-		<Resource Include="TXTS\48.txt" />
-		<Resource Include="TXTS\49.txt" />
-		<Resource Include="TXTS\5.txt" />
-		<Resource Include="TXTS\50.txt" />
-		<Resource Include="TXTS\51.txt" />
-		<Resource Include="TXTS\52.txt" />
-		<Resource Include="TXTS\53.txt" />
-		<Resource Include="TXTS\54.txt" />
-		<Resource Include="TXTS\55.txt" />
-		<Resource Include="TXTS\56.txt" />
-		<Resource Include="TXTS\57.txt" />
-		<Resource Include="TXTS\58.txt" />
-		<Resource Include="TXTS\59.txt" />
-		<Resource Include="TXTS\6.txt" />
-		<Resource Include="TXTS\60.txt" />
-		<Resource Include="TXTS\61.txt" />
-		<Resource Include="TXTS\62.txt" />
-		<Resource Include="TXTS\63.txt" />
-		<Resource Include="TXTS\64.txt" />
-		<Resource Include="TXTS\65.txt" />
-		<Resource Include="TXTS\66.txt" />
-		<Resource Include="TXTS\67.txt" />
-		<Resource Include="TXTS\68.txt" />
-		<Resource Include="TXTS\69.txt" />
-		<Resource Include="TXTS\7.txt" />
-		<Resource Include="TXTS\70.txt" />
-		<Resource Include="TXTS\71.txt" />
-		<Resource Include="TXTS\72.txt" />
-		<Resource Include="TXTS\73.txt" />
-		<Resource Include="TXTS\74.txt" />
-		<Resource Include="TXTS\75.txt" />
-		<Resource Include="TXTS\76.txt" />
-		<Resource Include="TXTS\77.txt" />
-		<Resource Include="TXTS\78.txt" />
-		<Resource Include="TXTS\79.txt" />
-		<Resource Include="TXTS\8.txt" />
-		<Resource Include="TXTS\80.txt" />
-		<Resource Include="TXTS\81.txt" />
-		<Resource Include="TXTS\82.txt" />
-		<Resource Include="TXTS\83.txt" />
-		<Resource Include="TXTS\84.txt" />
-		<Resource Include="TXTS\85.txt" />
-		<Resource Include="TXTS\86.txt" />
-		<Resource Include="TXTS\87.txt" />
-		<Resource Include="TXTS\88.txt" />
-		<Resource Include="TXTS\89.txt" />
-		<Resource Include="TXTS\9.txt" />
-		<Resource Include="TXTS\90.txt" />
-		<Resource Include="TXTS\91.txt" />
-		<Resource Include="TXTS\92.txt" />
-		<Resource Include="TXTS\93.txt" />
-		<Resource Include="TXTS\94.txt" />
-		<Resource Include="TXTS\95.txt" />
-		<Resource Include="TXTS\96.txt" />
-		<Resource Include="TXTS\97.txt" />
-		<Resource Include="TXTS\98.txt" />
-		<Resource Include="TXTS\99.txt" />
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
 	</ItemGroup>
 
 	<ItemGroup>

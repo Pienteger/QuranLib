@@ -8,8 +8,8 @@ namespace QuranLib
         public QuranInstance(ScriptType scriptType = ScriptType.Clean, bool autoLoad = false, byte start = 1,
             byte end = 114)
         {
-            BaseVerseList = new List<Verse>();
-            BaseChapterList = BaseDataStore.GetChapters().ToList();
+            baseVerseList = new List<Verse>();
+            baseChapterList = BaseDataStore.GetChapters().ToList();
             ScriptType = scriptType;
             if (autoLoad)
                 LoadChapters(start, end);
@@ -24,9 +24,9 @@ namespace QuranLib
                     return chapterList.GetRange(start - 1, end - start + 1)
                         .Select(x => x.GetEnumDescription()).ToList();
                 case ChapterNameType.ArabicFont:
-                    return BaseChapterList.Select(c => c.ChapterNameArabic).ToList();
+                    return baseChapterList.Select(c => c.ChapterNameArabic).ToList();
                 case ChapterNameType.EnglishName:
-                    return BaseChapterList.Select(c => c.ChapterNameEnglish).ToList();
+                    return baseChapterList.Select(c => c.ChapterNameEnglish).ToList();
                 default:
                     throw new ArgumentOutOfRangeException(nameof(chapterNameType), chapterNameType, null);
             }
@@ -35,7 +35,7 @@ namespace QuranLib
 
         public Chapter GetChapter(ChapterName chapterName)
         {
-            Chapter chapter = BaseChapterList.FirstOrDefault(x => x.Name == chapterName)!;
+            Chapter chapter = baseChapterList.FirstOrDefault(x => x.Name == chapterName)!;
             if (!chapter.Verses.Any())
                 LoadChapter(chapterName);
             return chapter;
@@ -48,7 +48,7 @@ namespace QuranLib
 
         public ImmutableList<Chapter> GetChapters(ChapterName[] chapterNames)
         {
-            return BaseChapterList
+            return baseChapterList
                 .Where(x => chapterNames.Contains(x.Name))
                 .ToImmutableList();
         }
@@ -61,12 +61,12 @@ namespace QuranLib
 
         public ImmutableList<Chapter> GetChapters()
         {
-            return BaseChapterList.ToImmutableList();
+            return baseChapterList.ToImmutableList();
         }
 
         public Verse GetVerse(byte chapter, ushort verseNumber)
         {
-            return BaseVerseList.FirstOrDefault(a => a.Chapter == (ChapterName)chapter && a.VerseNumber == verseNumber)
+            return baseVerseList.FirstOrDefault(a => a.Chapter == (ChapterName)chapter && a.VerseNumber == verseNumber)
                 !;
         }
 
@@ -76,7 +76,7 @@ namespace QuranLib
         }
         public List<Verse> GetVerses(ChapterName chapter)
         {
-            return BaseVerseList.Where(a => a.Chapter == chapter).ToList();
+            return baseVerseList.Where(a => a.Chapter == chapter).ToList();
         }
 
         public List<Verse> GetVerses(ushort chapterNumber)
@@ -85,7 +85,7 @@ namespace QuranLib
         }
         public ImmutableList<Verse> GetVerses(byte chapter, ushort startVerse, ushort endVerse)
         {
-            return BaseVerseList.Where(a =>
+            return baseVerseList.Where(a =>
                     a.Chapter == (ChapterName)chapter && a.VerseNumber >= startVerse && a.VerseNumber <= endVerse)
                 .ToImmutableList();
         }
@@ -95,8 +95,8 @@ namespace QuranLib
             return GetVerses((byte)chapter, startVerse, endVerse);
         }
 
-        private readonly List<Verse> BaseVerseList;
-        private readonly List<Chapter> BaseChapterList;
+        private readonly List<Verse> baseVerseList;
+        private readonly List<Chapter> baseChapterList;
         public ScriptType ScriptType { get; set; }
 
         public void LoadChapters(byte start = 1, byte end = 114)
@@ -105,13 +105,10 @@ namespace QuranLib
                 end = 114;
             if (start < 1 | start > end)
                 start = 1;
-
-
             for (byte i = start; i <= end; i++)
             {
                 LoadChapter(i);
             }
-
         }
 
         public void LoadChapter(byte chapterNumber)
@@ -127,13 +124,13 @@ namespace QuranLib
             foreach (string s in lineByLine)
             {
                 var verse = new Verse((ChapterName)chapterNumber, verseNumber, s);
-                BaseVerseList.Add(verse);
+                baseVerseList.Add(verse);
                 verseNumber++;
             }
 
             byte i1 = chapterNumber;
-            BaseChapterList.Single(c => c.Name == (ChapterName)i1).Verses =
-                BaseVerseList.Where(v => v.Chapter == (ChapterName)i1).ToImmutableList();
+            baseChapterList.Single(c => c.Name == (ChapterName)i1).Verses =
+                baseVerseList.Where(v => v.Chapter == (ChapterName)i1).ToImmutableList();
         }
         public void LoadChapter(ChapterName chapterName)
         {

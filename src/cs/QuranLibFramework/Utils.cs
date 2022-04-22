@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Reflection;
 using System.Linq;
+using System.Reflection;
 namespace QuranLib
 {
     internal static class Utils
@@ -35,6 +35,27 @@ namespace QuranLib
             return muqattaatChapters.Contains(chapter);
         }
 
+        public static SajdaType GetSajdaType(ChapterName chapterName, ushort verseNumber)
+        {
+            Dictionary<string, SajdaType> sajdaDict = new Dictionary<string, SajdaType>();
+            sajdaDict.Add("22 + 18", SajdaType.Recommended);
+            sajdaDict.Add("22 + 77", SajdaType.Recommended);
+            sajdaDict.Add("27 + 26", SajdaType.Recommended);
+            sajdaDict.Add("41 + 38", SajdaType.Obligatory);
+            sajdaDict.Add("13 + 15", SajdaType.Recommended);
+            sajdaDict.Add("17 + 109", SajdaType.Recommended);
+            sajdaDict.Add("96 + 19", SajdaType.Obligatory);
+            sajdaDict.Add("32 + 15", SajdaType.Obligatory);
+            sajdaDict.Add("7 + 206", SajdaType.Recommended);
+            sajdaDict.Add("16 + 50", SajdaType.Recommended);
+            sajdaDict.Add("19 + 58", SajdaType.Recommended);
+            sajdaDict.Add("38 + 24", SajdaType.Recommended);
+            sajdaDict.Add("84 + 21", SajdaType.Recommended);
+            sajdaDict.Add("53 + 62", SajdaType.Obligatory);
+            sajdaDict.Add("25 + 60", SajdaType.Recommended);
+            string key = $"{(int)chapterName} + {verseNumber}";
+            return sajdaDict.ContainsKey(key) ? sajdaDict[key] : SajdaType.None;
+        }
         public static bool CheckIfHasMuqattaat(ChapterName chapter)
         {
             return CheckIfHasMuqattaat((byte)chapter);

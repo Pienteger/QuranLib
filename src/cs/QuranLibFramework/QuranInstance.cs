@@ -87,44 +87,48 @@ namespace QuranLib
         private readonly List<Verse> baseVerseList;
         private readonly List<Chapter> baseChapterList;
         public ScriptType ScriptType { get; set; }
-
         public void LoadChapters(byte start = 1, byte end = 114)
         {
             if (end > 114 | start > end)
                 end = 114;
             if (start < 1 | start > end)
                 start = 1;
-
-
             for (byte i = start; i <= end; i++)
             {
-                string res = string.Empty;
-                switch (ScriptType)
-                {
-                    case ScriptType.Clean:
-                        res = CleanAyahResource.ResourceManager.GetString($"_{i}");
-                        break;
-                    case ScriptType.WithTashkil:
-                        res = UthmaniWithTashkilAyahResource.ResourceManager.GetString($"UthmaniWithTashkil__{i}_");
-                        break;
-                    default:
-                        throw new ArgumentOutOfRangeException();
-                }
-
-                string[] lineByLine = res.Split(new[] { "\n" }, StringSplitOptions.None);
-                ushort verseNumber = 1;
-                foreach (string s in lineByLine)
-                {
-                    var verse = new Verse((ChapterName)i, verseNumber, s);
-                    baseVerseList.Add(verse);
-                    verseNumber++;
-                }
-
-                byte i1 = i;
-                baseChapterList.Single(c => c.Name == (ChapterName)i1).Verses =
-                    baseVerseList.Where(v => v.Chapter == (ChapterName)i1).ToList();
+                LoadChapter(i);
+            }
+        }
+        public void LoadChapter(byte chapterNumber)
+        {
+            string res = string.Empty;
+            switch (ScriptType)
+            {
+                case ScriptType.Clean:
+                    res = CleanAyahResource.ResourceManager.GetString($"_{chapterNumber}");
+                    break;
+                case ScriptType.WithTashkil:
+                    res = UthmaniWithTashkilAyahResource.ResourceManager.GetString($"UthmaniWithTashkil__{chapterNumber}_");
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
             }
 
+            string[] lineByLine = res.Split(new[] { "\n" }, StringSplitOptions.None);
+            ushort verseNumber = 1;
+            foreach (string s in lineByLine)
+            {
+                var verse = new Verse((ChapterName)chapterNumber, verseNumber, s);
+                baseVerseList.Add(verse);
+                verseNumber++;
+            }
+
+            byte i1 = chapterNumber;
+            baseChapterList.Single(c => c.Name == (ChapterName)i1).Verses =
+                baseVerseList.Where(v => v.Chapter == (ChapterName)i1).ToList();
+        }
+        public void LoadChapter(ChapterName chapterName)
+        {
+            LoadChapter((byte)chapterName);
         }
     }
 }

@@ -47,25 +47,25 @@ Two script types are available:
 * `autoLoad` - If `true`, the library will automatically load the chapters. (Default is set to `false`)
 * `start` and `end` - The start and end chapter numbers. (Default is set to `1` and `114`. If `autoLoad` is `true`, the library will load chapters within this range.)
 
-You can load chapters manually by calling `LoadChapters` method. **Without loading chapters, the library will not be able to work properly.**
+You can load chapters manually by calling `LoadChapters` method. ~~**Without loading chapters, the library will not be able to work properly.**~~ If the chapter is not loaded, the library will load it automatically when you call `GetChapter` method.
 
 ### Methods
 
 
-| Method | Description |
-| --- | --- |
-| `LoadChapters(byte start = 1, byte end = 114)` | Loads chapters within the specified range. |
-| `GetChapterNames(byte start = 1, byte end = 114)` | Returns a list of chapter names. |
-| `GetChapter(ChapterName chapterName)` | Returns a `Chapter` object. |
-| `GetChapter(byte chapterNumber)` | Returns a `Chapter` object. |
-| `GetChapters(ChapterName[] chapterNames)` | Returns a `ImmutableList<Chapter>` object. |
-| `GetChapters(byte[] chapterNumbers)` | Returns a `ImmutableList<Chapter>` object. |
-| `GetChapters()` | Returns a `ImmutableList<Chapter>` object. |
-| `GetVerse(byte chapter, ushort verseNumber)` | Returns a `Verse` object. |
-| `GetVerse(ChapterName chapter, ushort verseNumber)` | Returns a `Verse` object. |
-| `GetVerses(ChapterName chapter)` | Returns a `ImmutableList<Verse>` object. |
-| `GetVerses(ushort chapterNumber)` | Returns a `ImmutableList<Verse>` object. |
-| `GetVerses(byte chapter, ushort startVerse, ushort endVerse)` | Returns a `ImmutableList<Verse>` object. |
-| `GetVerses(ChapterName chapter, ushort startVerse, ushort endVerse)` | Returns a `ImmutableList<Verse>` object. |
+| Method                                                               | Description                                |
+| -------------------------------------------------------------------- | ------------------------------------------ |
+| `LoadChapters(byte start = 1, byte end = 114)`                       | Loads chapters within the specified range. |
+| `GetChapterNames(byte start = 1, byte end = 114)`                    | Returns a list of chapter names.           |
+| `GetChapter(ChapterName chapterName)`                                | Returns a `Chapter` object.                |
+| `GetChapter(byte chapterNumber)`                                     | Returns a `Chapter` object.                |
+| `GetChapters(ChapterName[] chapterNames)`                            | Returns a `ImmutableList<Chapter>` object. |
+| `GetChapters(byte[] chapterNumbers)`                                 | Returns a `ImmutableList<Chapter>` object. |
+| `GetChapters()`                                                      | Returns a `ImmutableList<Chapter>` object. |
+| `GetVerse(byte chapter, ushort verseNumber)`                         | Returns a `Verse` object.                  |
+| `GetVerse(ChapterName chapter, ushort verseNumber)`                  | Returns a `Verse` object.                  |
+| `GetVerses(ChapterName chapter)`                                     | Returns a `ImmutableList<Verse>` object.   |
+| `GetVerses(ushort chapterNumber)`                                    | Returns a `ImmutableList<Verse>` object.   |
+| `GetVerses(byte chapter, ushort startVerse, ushort endVerse)`        | Returns a `ImmutableList<Verse>` object.   |
+| `GetVerses(ChapterName chapter, ushort startVerse, ushort endVerse)` | Returns a `ImmutableList<Verse>` object.   |
 
 > All the text, and properties are read-only.
