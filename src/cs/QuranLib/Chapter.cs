@@ -32,5 +32,9 @@ namespace QuranLib
         public byte[] Juz { private get; set; }
         [MaxLength(40)] public float Ruku { get; set; }
         public bool HasMuqattaat => Utils.CheckIfHasMuqattaat(ChapterNumber);
+        public override string ToString()
+        {
+            return ChapterName;
+        }
     }
 }

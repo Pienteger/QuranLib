@@ -1,5 +1,4 @@
 ﻿using System.Text;
-
 namespace QuranLib
 {
     public class Verse

@@ -56,6 +56,8 @@ You can load chapters manually by calling `LoadChapters` method. ~~**Without loa
 | -------------------------------------------------------------------- | ------------------------------------------ |
 | `LoadChapters(byte start = 1, byte end = 114)`                       | Loads chapters within the specified range. |
 | `GetChapterNames(byte start = 1, byte end = 114)`                    | Returns a list of chapter names.           |
+| `GetBismillah()											           | Returns Bismillahir Rahmanir  Rahim in selected script |
+| `GetInTheNameOfAllah()									           | Returns Bismillahir Rahmanir  Rahim in selected script |
 | `GetChapter(ChapterName chapterName)`                                | Returns a `Chapter` object.                |
 | `GetChapter(byte chapterNumber)`                                     | Returns a `Chapter` object.                |
 | `GetChapters(ChapterName[] chapterNames)`                            | Returns a `ImmutableList<Chapter>` object. |

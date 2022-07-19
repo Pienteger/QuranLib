@@ -15,6 +15,15 @@ namespace QuranLib
                 LoadChapters(start, end);
         }
 
+        public string GetInTheNameOfAllah()
+        {
+            return GetBismillah();
+        }
+
+        public string GetBismillah()
+        {
+          return  ScriptType == ScriptType.Clean ? "بسم الله الرحمن الرحيم" : "بِسْمِ اللَّهِ الرَّحْمَـٰنِ الرَّحِيمِ";
+        }
         public List<string> GetChapterNames(byte start = 1, byte end = 114, ChapterNameType chapterNameType = ChapterNameType.Normal)
         {
             switch (chapterNameType)

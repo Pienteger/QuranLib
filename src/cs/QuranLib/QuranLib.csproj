@@ -6,7 +6,7 @@
 		<Nullable>enable</Nullable>
 		<OutputType>Library</OutputType>
 		<PackageId>Pienteger.QuranLib</PackageId>
-		<Version>6.0.3</Version>
+		<Version>6.0.4</Version>
 		<Authors>Mahmudul Hasan</Authors>
 		<Company>Pienteger</Company>
 		<Copyright>Copyright © Pienteger 2022</Copyright>
