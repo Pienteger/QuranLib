@@ -12,8 +12,15 @@ A portable Quran library that gives read-only access to the entire Holy Quran.
 
 ## Installation
 
+In the NuGet package manager console type -
+
 ```powershell
 Install-Package Pienteger.QuranLib
+```
+Or paste this code directly in the **.csproj** file.
+
+```xml
+<PackageReference Include="Pienteger.QuranLib" Version="6.0.3" />
 ```
 
 ## Usage
