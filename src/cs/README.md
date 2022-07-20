@@ -20,7 +20,7 @@ Install-Package Pienteger.QuranLib
 Or paste this code directly in the **.csproj** file.
 
 ```xml
-<PackageReference Include="Pienteger.QuranLib" Version="6.0.3" />
+<PackageReference Include="Pienteger.QuranLib" Version="6.0.4" />
 ```
 
 ## Usage
