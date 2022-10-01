@@ -67,14 +67,14 @@ You can load chapters manually by calling `LoadChapters` method. ~~**Without loa
 | `GetInTheNameOfAllah()`									           | Returns Bismillahir Rahmanir  Rahim in selected script |
 | `GetChapter(ChapterName chapterName)`                                | Returns a `Chapter` object.                |
 | `GetChapter(byte chapterNumber)`                                     | Returns a `Chapter` object.                |
-| `GetChapters(ChapterName[] chapterNames)`                            | Returns a `ImmutableList<Chapter>` object. |
-| `GetChapters(byte[] chapterNumbers)`                                 | Returns a `ImmutableList<Chapter>` object. |
-| `GetChapters()`                                                      | Returns a `ImmutableList<Chapter>` object. |
+| `GetChapters(ChapterName[] chapterNames)`                            | Returns an `ImmutableList<Chapter>` object. |
+| `GetChapters(byte[] chapterNumbers)`                                 | Returns an `ImmutableList<Chapter>` object. |
+| `GetChapters()`                                                      | Returns an `ImmutableList<Chapter>` object. |
 | `GetVerse(byte chapter, ushort verseNumber)`                         | Returns a `Verse` object.                  |
 | `GetVerse(ChapterName chapter, ushort verseNumber)`                  | Returns a `Verse` object.                  |
-| `GetVerses(ChapterName chapter)`                                     | Returns a `ImmutableList<Verse>` object.   |
-| `GetVerses(ushort chapterNumber)`                                    | Returns a `ImmutableList<Verse>` object.   |
-| `GetVerses(byte chapter, ushort startVerse, ushort endVerse)`        | Returns a `ImmutableList<Verse>` object.   |
-| `GetVerses(ChapterName chapter, ushort startVerse, ushort endVerse)` | Returns a `ImmutableList<Verse>` object.   |
+| `GetVerses(ChapterName chapter)`                                     | Returns an `ImmutableList<Verse>` object.   |
+| `GetVerses(ushort chapterNumber)`                                    | Returns an `ImmutableList<Verse>` object.   |
+| `GetVerses(byte chapter, ushort startVerse, ushort endVerse)`        | Returns an `ImmutableList<Verse>` object.   |
+| `GetVerses(ChapterName chapter, ushort startVerse, ushort endVerse)` | Returns an `ImmutableList<Verse>` object.   |
 
 > All the text, and properties are read-only.
