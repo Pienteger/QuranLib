@@ -1,4 +1,4 @@
-![Maintenance](https://img.shields.io/maintenance/yes/2022?style=flat-square) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
+![Maintenance](https://img.shields.io/maintenance/yes/2023?style=flat-square) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 
 # Quran Lib
 
