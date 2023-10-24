@@ -1,19 +1,14 @@
 ﻿@inherits LayoutComponentBase
+@namespace QuranLibTest.Shared
+<PageTitle>QuranLib Test</PageTitle>
 
-<PageTitle>QuranLibTest</PageTitle>
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
+<main>
+    <div class="bg-blue-950 md:px-16 py-4 text-4xl font-bold text-white">
+        <a href="/">QuranLib Test</a>
     </div>
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
-</div>
+    <article class="content px-4 md:px-32">
+        @Body
+    </article>
+</main>

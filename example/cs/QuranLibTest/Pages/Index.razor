@@ -1,9 +1,59 @@
 ﻿@page "/"
+@using QuranLib
+@inject QuranInstance QuranInstance
+@using System.Collections.Immutable
 
-<PageTitle>Index</PageTitle>
+<PageTitle>QuranLib Test - Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="px-10 py-10 flex flex-col">
+    <div class="self-end mb-3">
+        Sort by: <button @onclick="SortChapters">@SortBy</button>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        @foreach (Chapter chapter in Chapters)
+        {
+            <a href="/@chapter.ChapterNumber" class="decoration-0">
+                <div class="shadow-lg rounded p-3 flex gap-2 border border-blue-500 items-center">
+                    <div class="rounded-full flex-initial bg-blue-500 text-white flex items-center justify-center h-12 w-12">
+                        @chapter.ChapterNumber
+                    </div>
+                    <div class="flex-1">
+                        <p class="font-bold">@chapter.ChapterName</p>
+                        <small class="text-blue-950">@chapter.ChapterNameEnglish</small>
+                    </div>
+                    <div class="flex flex-col items-end">
+                        <p>@chapter.ChapterNameArabic</p>
+                        <small class="text-blue-950">@chapter.TotalVerse Ayahs</small>
+                    </div>
+                </div>
+            </a>
+        }
+    </div>
+</div>
 
-Welcome to your new app.
+@code{
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+    private IImmutableList<QuranLib.Chapter> Chapters { get; set; }
+    private string SortBy { get; set; } = "Ascending 🔼";
+
+    protected override void OnInitialized()
+    {
+        Chapters = QuranInstance.GetChapters();
+        base.OnInitialized();
+    }
+
+    private void SortChapters()
+    {
+        if (SortBy.StartsWith("Ascending"))
+        {
+            Chapters = Chapters.OrderByDescending(x => x.ChapterNumber).ToImmutableList();
+            SortBy = "Descending 🔽";
+        }
+        else
+        {
+            Chapters = Chapters.OrderBy(x => x.ChapterNumber).ToImmutableList();
+            SortBy = "Ascending 🔼";
+        }
+    }
+
+}

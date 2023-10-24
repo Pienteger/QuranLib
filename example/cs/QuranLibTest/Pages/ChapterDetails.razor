@@ -1,0 +1,63 @@
+﻿@page "/{ChapterNumber}"
+@using QuranLib
+@inject QuranInstance QuranInstance
+
+<PageTitle>@($"{Chapter.ChapterName} ({Chapter.ChapterNameArabic})")</PageTitle>
+
+<div class="flex mb-5 justify-between items-center">
+    <div class="flex flex-col gap-2">
+        <h1 class="text-5xl">@Chapter.ChapterName (@Chapter.ChapterNameArabic)</h1>
+        <h2 class="text-4xl">@Chapter.ChapterNameEnglish</h2>
+    </div>
+
+    <div class="flex gap-2 items-center justify-center">
+        <small class="text-xl">A</small>
+        <input type="range" min="1" max="8" @bind="FontSize"/>
+        <span class="text-3xl">A</span>
+    </div>
+</div>
+<div class="flex flex-col gap-2 max-h-[75vh] overflow-auto">
+    @foreach (Verse verse in Chapter.Verses)
+    {
+        <div class="py-3 flex gap-2 flex-wrap flex-col mb-3 pr-5">
+            <div class="flex gap-2">
+                <small class="px-2 py-1 bg-blue-300 rounded-full">
+                    <strong>Verse no:</strong> @verse.VerseNumber
+                </small>
+                <small class="px-2 py-1 bg-blue-300 rounded-full">
+                    <strong>Sajda type:</strong> @verse.SajdaType
+                </small>
+            </div>
+            <p class="text-@(FontSize)xl" dir="rtl">
+                @verse.Text
+            </p>
+            <div class="h-px bg-gray-500 w-full"></div>
+        </div>
+    }
+</div>
+
+@code {
+    // get the chapter number from the url
+    [Parameter]
+    public string ChapterNumber { get; set; } = "1";
+
+    public int FontSize { get; set; } = 3;
+    private Chapter Chapter { get; set; }
+
+    protected override void OnInitialized()
+    {
+        byte chapterNumber = 1;
+        if (byte.TryParse(ChapterNumber, out byte tempNumber))
+        {
+            chapterNumber = tempNumber switch
+            {
+                > 114 => 114,
+                < 1 => 1,
+                _ => tempNumber
+                };
+        }
+        Chapter = QuranInstance.GetChapter(chapterNumber);
+        base.OnInitialized();
+    }
+
+}

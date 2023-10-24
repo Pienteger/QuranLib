@@ -34,24 +34,27 @@ namespace QuranLib
 
         public static SajdaType GetSajdaType(ChapterName chapterName, ushort verseNumber)
         {
-            Dictionary<string, SajdaType> sajdaDict = new Dictionary<string, SajdaType>();
-            sajdaDict.Add("22 + 18", SajdaType.Recommended);
-            sajdaDict.Add("22 + 77", SajdaType.Recommended);
-            sajdaDict.Add("27 + 26", SajdaType.Recommended);
-            sajdaDict.Add("41 + 38", SajdaType.Obligatory);
-            sajdaDict.Add("13 + 15", SajdaType.Recommended);
-            sajdaDict.Add("17 + 109", SajdaType.Recommended);
-            sajdaDict.Add("96 + 19", SajdaType.Obligatory);
-            sajdaDict.Add("32 + 15", SajdaType.Obligatory);
-            sajdaDict.Add("7 + 206", SajdaType.Recommended);
-            sajdaDict.Add("16 + 50", SajdaType.Recommended);
-            sajdaDict.Add("19 + 58", SajdaType.Recommended);
-            sajdaDict.Add("38 + 24", SajdaType.Recommended);
-            sajdaDict.Add("84 + 21", SajdaType.Recommended);
-            sajdaDict.Add("53 + 62", SajdaType.Obligatory);
-            sajdaDict.Add("25 + 60", SajdaType.Recommended);
-            string key = $"{(int)chapterName} + {verseNumber}";
-            return sajdaDict.ContainsKey(key) ? sajdaDict[key] : SajdaType.None;
+            var sajdaDict = new Dictionary<string, SajdaType>
+            {
+                { "22 + 18", SajdaType.Recommended },
+                { "22 + 77", SajdaType.Recommended },
+                { "27 + 26", SajdaType.Recommended },
+                { "41 + 38", SajdaType.Obligatory },
+                { "13 + 15", SajdaType.Recommended },
+                { "17 + 109", SajdaType.Recommended },
+                { "96 + 19", SajdaType.Obligatory },
+                { "32 + 15", SajdaType.Obligatory },
+                { "7 + 206", SajdaType.Recommended },
+                { "16 + 50", SajdaType.Recommended },
+                { "19 + 58", SajdaType.Recommended },
+                { "38 + 24", SajdaType.Recommended },
+                { "84 + 21", SajdaType.Recommended },
+                { "53 + 62", SajdaType.Obligatory },
+                { "25 + 60", SajdaType.Recommended }
+            };
+
+            var key = $"{(int)chapterName} + {verseNumber}";
+            return sajdaDict.TryGetValue(key, out SajdaType value) ? value : SajdaType.None;
         }
         public static bool CheckIfHasMuqattaat(ChapterName chapter)
         {
@@ -62,9 +65,9 @@ namespace QuranLib
             where T : struct, IConvertible
         {
             if (!typeof(T).IsEnum)
-                return null;
+                return string.Empty;
 
-            var description = enumValue.ToString();
+            string description = enumValue.ToString() ?? string.Empty;
             FieldInfo? fieldInfo = enumValue.GetType().GetField(enumValue.ToString() ?? string.Empty);
 
             if (fieldInfo == null) return description;
@@ -78,6 +81,8 @@ namespace QuranLib
         }
 
         public static List<TEnum> GetEnumList<TEnum>() where TEnum : Enum
-            => ((TEnum[])Enum.GetValues(typeof(TEnum))).ToList();
+        {
+            return ((TEnum[])Enum.GetValues(typeof(TEnum))).ToList();
+        }
     }
 }

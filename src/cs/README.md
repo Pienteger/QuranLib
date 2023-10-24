@@ -7,6 +7,7 @@ A portable Quran library that gives read-only access to the entire Holy Quran.
 
 ## Available Versions
 
+* .NET 7
 * .NET 6
 * .NET Framework 4.5
 
@@ -20,7 +21,7 @@ Install-Package Pienteger.QuranLib
 Or paste this code directly in the **.csproj** file.
 
 ```xml
-<PackageReference Include="Pienteger.QuranLib" Version="6.0.4" />
+<PackageReference Include="Pienteger.QuranLib" Version="7.0.1" />
 ```
 
 ## Usage

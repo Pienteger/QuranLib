@@ -1,40 +1,43 @@
 ﻿using System.ComponentModel.DataAnnotations;
-namespace QuranLib
+namespace QuranLib;
+
+public class Chapter
 {
-
-    public class Chapter
+    private IEnumerable<Verse> _verses;
+    
+    public Chapter()
     {
-        private IEnumerable<Verse> verses;
+        _verses = new List<Verse>();
+    }
 
-        public ChapterName Name { get; set; }
-        [Obsolete("Use ChapterName instead")]
-        public string GetChapterName() => Name.GetEnumDescription();
+    public ChapterName Name { get; set; }
+    [Obsolete("Use ChapterName instead")]
+    public string GetChapterName() => Name.GetEnumDescription();
 
-        public string ChapterName => Name.GetEnumDescription();
-        public string ChapterNameArabic { get; set; }
-        public string ChapterNameEnglish { get; set; }
-        [MaxLength(114)]
-        public byte ChapterNumber { get; set; }
-        [MaxLength(114)]
-        public byte Order { get; set; }
-        /// <summary>
-        /// Every chapter comes with a leading Bismillah verse except Chapter 9.
-        /// </summary>
-        public IEnumerable<Verse> Verses
-        {
-            get => verses ??= new List<Verse>();
-            set => verses = value;
-        }
+    public string ChapterName => Name.GetEnumDescription();
+    public string ChapterNameArabic { get; set; }
+    public string ChapterNameEnglish { get; set; }
+    [MaxLength(114)]
+    public byte ChapterNumber { get; set; }
+    [MaxLength(114)]
+    public byte Order { get; set; }
+    /// <summary>
+    /// Every chapter comes with a leading Bismillah verse except Chapter 9.
+    /// </summary>
+    public IEnumerable<Verse> Verses
+    {
+        get => _verses ??= new List<Verse>();
+        set => _verses = value;
+    }
 
-        public ushort TotalVerse => (ushort)Verses.Count();
-        public PlaceOfRevelation PlaceOfRevelation => Utils.GetPlaceOfRevelation(ChapterNumber);
-        public string JuzNumbers => string.Join(", ", Juz);
-        public byte[] Juz { private get; set; }
-        [MaxLength(40)] public float Ruku { get; set; }
-        public bool HasMuqattaat => Utils.CheckIfHasMuqattaat(ChapterNumber);
-        public override string ToString()
-        {
-            return ChapterName;
-        }
+    public ushort TotalVerse { get; init; }
+    public PlaceOfRevelation PlaceOfRevelation => Utils.GetPlaceOfRevelation(ChapterNumber);
+    public string JuzNumbers => string.Join(", ", Juz);
+    public byte[] Juz { private get; init; }
+    [MaxLength(40)] public float Ruku { get; set; }
+    public bool HasMuqattaat => Utils.CheckIfHasMuqattaat(ChapterNumber);
+    public override string ToString()
+    {
+        return ChapterName;
     }
 }

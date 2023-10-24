@@ -1,22 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFramework>net7.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<OutputType>Library</OutputType>
 		<PackageId>Pienteger.QuranLib</PackageId>
-		<Version>6.0.4</Version>
+		<Version>7.0.1</Version>
 		<Authors>Mahmudul Hasan</Authors>
 		<Company>Pienteger</Company>
-		<Copyright>Copyright © Pienteger 2022</Copyright>
+		<Copyright>Copyright © Pienteger 2023</Copyright>
 		<PackageProjectUrl>https://github.com/Pienteger/QuranLib</PackageProjectUrl>
 		<Description>A portable Quran library that gives access to the entire Holy Quran.</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageTags>Quran, Holy Quran</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<NeutralLanguage>en</NeutralLanguage>
-		<PackageReleaseNotes>Replaced the text with tanzil.net's script because it contains stop marks for better readability.</PackageReleaseNotes>
+		<PackageReleaseNotes>
+			Now verse count can be retrieved from a surah without loading the surah.
+		</PackageReleaseNotes>
 		<RepositoryUrl>https://github.com/pienteger/quranlib</RepositoryUrl>
 	</PropertyGroup>
 
