@@ -4,7 +4,7 @@ public class Chapter
 {
     private IEnumerable<Verse> _verses;
 
-    public Chapter()
+    internal Chapter()
     {
         _verses = new List<Verse>();
     }
@@ -18,11 +18,9 @@ public class Chapter
     public string ChapterNameArabic { get; set; }
     public string ChapterNameEnglish { get; set; }
 
-    [MaxLength(114)]
-    public byte ChapterNumber { get; set; }
+    [MaxLength(114)] public byte ChapterNumber { get; set; }
 
-    [MaxLength(114)]
-    public byte Order { get; set; }
+    [MaxLength(114)] public byte Order { get; set; }
 
     /// <summary>
     /// Every chapter comes with a leading Bismillah verse except Chapter 9.
@@ -38,8 +36,7 @@ public class Chapter
     public string JuzNumbers => string.Join(", ", Juz);
     public byte[] Juz { private get; init; }
 
-    [MaxLength(40)]
-    public float Ruku { get; set; }
+    [MaxLength(40)] public float Ruku { get; set; }
     public bool HasMuqattaat => Utils.CheckIfHasMuqattaat(ChapterNumber);
 
     public override string ToString()
