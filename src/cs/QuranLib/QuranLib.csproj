@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net7.0</TargetFramework>
+		<TargetFramework>net9.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<OutputType>Library</OutputType>
 		<PackageId>Pienteger.QuranLib</PackageId>
-		<Version>7.0.1</Version>
+		<Version>9.0.1</Version>
 		<Authors>Mahmudul Hasan</Authors>
 		<Company>Pienteger</Company>
 		<Copyright>Copyright © Pienteger 2023</Copyright>
