@@ -1,8 +1,15 @@
 {
 	"scripts": {
-		"watch": "npx tailwindcss -i ./wwwroot/css/input.css -o ./wwwroot/css/output.css --watch"
+		"watch": "npx tailwindcss -i ./wwwroot/css/input.css -o ./wwwroot/css/output.css --watch",
+		"build": "npx tailwindcss -i ./wwwroot/css/input.css -o ./wwwroot/css/output.css"
 	},
 	"dependencies": {
-		"tailwindcss": "^3.3.3"
+		"@tailwindcss/cli": "^4.0.13",
+		"daisyui": "^5.0.2",
+		"tailwindcss": "^4.0.13"
+	},
+	"devDependencies": {
+		"@iconify-json/fluent": "^1.2.15",
+		"@iconify/tailwind4": "^1.0.6"
 	}
 }

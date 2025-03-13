@@ -1,20 +1,62 @@
 ﻿@page "/"
 @using QuranLib
 @inject QuranInstance QuranInstance
-@using System.Collections.Immutable
+
 
 <PageTitle>QuranLib Test - Home</PageTitle>
 
 <div class="px-10 py-10 flex flex-col">
+
+    <div class="flex w-full mb-3">
+        <label class="input validator join-item">
+            <span class="icon-[fluent--search-16-regular]"></span>
+            <input type="email"
+                   class="focus:outline-hidden text-2xl"
+                   placeholder="Search term"
+                   required
+                   @bind="SearchTerm"/>
+        </label>
+        <button class="btn btn-neutral join-item" @onclick="Search">Search</button>
+    </div>
+
+    @if (SearchResult is not null && SearchResult.Any())
+    {
+        <span class="alert my-2 w-fit text-2xl">
+            <span class="icon-[fluent--info-24-regular]"></span>
+            <span>
+                Found @SearchResult.Count() results for "<span class="text-blue-500 font-bold">@SearchTerm</span>"
+                across @SearchResult.DistinctBy(c => c.ChapterName).Count() chapters.
+            </span>
+        </span>
+        <div class="max-h-[40vh] overflow-auto p-5 flex flex-col gap-2">
+            @foreach (var item in SearchResult)
+            {
+                <div class="card bg-base-100 w-full shadow-sm">
+                    <div class="card-body px-4 py-2">
+                        <h2 class="card-title">@item.ChapterName : @item.VerseNumber</h2>
+                        <p class="text-xl">
+                            @((MarkupString) item.Text.HighlightMatch(SearchTerm, s => $"<span class=\"text-blue-500 font-bold\">{s}</span>"))
+                        </p>
+                        <div class="card-actions justify-end">
+                            <a class="btn btn-primary" href="/@((int) item.Chapter)">Go</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
     <div class="self-end mb-3">
-        Sort by: <button @onclick="SortChapters">@SortBy</button>
+        Sort by:
+        <button @onclick="SortChapters">@SortBy</button>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        @foreach (Chapter chapter in Chapters)
+        @foreach (var chapter in Chapters)
         {
             <a href="/@chapter.ChapterNumber" class="decoration-0">
                 <div class="shadow-lg rounded p-3 flex gap-2 border border-blue-500 items-center">
-                    <div class="rounded-full flex-initial bg-blue-500 text-white flex items-center justify-center h-12 w-12">
+                    <div
+                        class="rounded-full flex-initial bg-blue-500 text-white flex items-center justify-center h-12 w-12">
                         @chapter.ChapterNumber
                     </div>
                     <div class="flex-1">
@@ -33,8 +75,10 @@
 
 @code{
 
-    private IImmutableList<QuranLib.Chapter> Chapters { get; set; }
+    private IImmutableList<Chapter> Chapters { get; set; }
     private string SortBy { get; set; } = "Ascending 🔼";
+    private IEnumerable<Verse>? SearchResult { get; set; } = [];
+    private string SearchTerm { get; set; }
 
     protected override void OnInitialized()
     {
@@ -54,6 +98,12 @@
             Chapters = Chapters.OrderBy(x => x.ChapterNumber).ToImmutableList();
             SortBy = "Ascending 🔼";
         }
+    }
+
+    private void Search()
+    {
+        if (string.IsNullOrWhiteSpace(SearchTerm)) return;
+        SearchResult = QuranInstance.FindMatchingVerses(SearchTerm);
     }
 
 }

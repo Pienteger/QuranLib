@@ -32,12 +32,12 @@ public class Chapter
     }
 
     public ushort TotalVerse { get; init; }
-    public PlaceOfRevelation PlaceOfRevelation => Utils.GetPlaceOfRevelation(ChapterNumber);
+    public PlaceOfRevelation PlaceOfRevelation => Utilities.GetPlaceOfRevelation(ChapterNumber);
     public string JuzNumbers => string.Join(", ", Juz);
     public byte[] Juz { private get; init; }
 
     [MaxLength(40)] public float Ruku { get; set; }
-    public bool HasMuqattaat => Utils.CheckIfHasMuqattaat(ChapterNumber);
+    public bool HasMuqattaat => Utilities.CheckIfHasMuqattaat(ChapterNumber);
 
     public override string ToString()
     {
