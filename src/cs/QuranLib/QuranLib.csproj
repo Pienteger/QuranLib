@@ -1,56 +1,56 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-	<PropertyGroup>
-		<TargetFramework>net9.0</TargetFramework>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<Nullable>enable</Nullable>
-		<OutputType>Library</OutputType>
-		<PackageId>Pienteger.QuranLib</PackageId>
-		<Version>9.0.1</Version>
-		<Authors>Mahmudul Hasan</Authors>
-		<Company>Pienteger</Company>
-		<Copyright>Copyright © Pienteger 2025</Copyright>
-		<PackageProjectUrl>https://github.com/Pienteger/QuranLib</PackageProjectUrl>
-		<Description>A portable Quran library that gives access to the entire Holy Quran.</Description>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageTags>Quran, Holy Quran</PackageTags>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<NeutralLanguage>en</NeutralLanguage>
-		<PackageReleaseNotes>
-			Now verse count can be retrieved from a surah without loading the surah.
-		</PackageReleaseNotes>
-		<RepositoryUrl>https://github.com/pienteger/quranlib</RepositoryUrl>
-	</PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <OutputType>Library</OutputType>
+        <PackageId>Pienteger.QuranLib</PackageId>
+        <Version>9.0.1</Version>
+        <Authors>Mahmudul Hasan</Authors>
+        <Company>Pienteger</Company>
+        <Copyright>Copyright © Pienteger 2025</Copyright>
+        <PackageProjectUrl>https://github.com/Pienteger/QuranLib</PackageProjectUrl>
+        <Description>A portable Quran library that gives access to the entire Holy Quran.</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>Quran, Holy Quran</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <NeutralLanguage>en</NeutralLanguage>
+        <PackageReleaseNotes>
+            You can search verses by searching for a word or a phrase. Introduced few extensions to make it easier to work with the library.
+        </PackageReleaseNotes>
+        <RepositoryUrl>https://github.com/pienteger/quranlib</RepositoryUrl>
+    </PropertyGroup>
 
-	<ItemGroup>
-		<None Include="..\README.md">
-			<Pack>True</Pack>
-			<PackagePath>\</PackagePath>
-		</None>
-	</ItemGroup>
+    <ItemGroup>
+        <None Include="..\README.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
 
-	<ItemGroup>
-		<Compile Update="CleanAyahResource.Designer.cs">
-			<DesignTime>True</DesignTime>
-			<AutoGen>True</AutoGen>
-			<DependentUpon>CleanAyahResource.resx</DependentUpon>
-		</Compile>
-		<Compile Update="UthmaniWithTashkilAyahResource.Designer.cs">
-			<DesignTime>True</DesignTime>
-			<AutoGen>True</AutoGen>
-			<DependentUpon>UthmaniWithTashkilAyahResource.resx</DependentUpon>
-		</Compile>
-	</ItemGroup>
+    <ItemGroup>
+        <Compile Update="CleanAyahResource.Designer.cs">
+            <DesignTime>True</DesignTime>
+            <AutoGen>True</AutoGen>
+            <DependentUpon>CleanAyahResource.resx</DependentUpon>
+        </Compile>
+        <Compile Update="UthmaniWithTashkilAyahResource.Designer.cs">
+            <DesignTime>True</DesignTime>
+            <AutoGen>True</AutoGen>
+            <DependentUpon>UthmaniWithTashkilAyahResource.resx</DependentUpon>
+        </Compile>
+    </ItemGroup>
 
-	<ItemGroup>
-		<EmbeddedResource Update="CleanAyahResource.resx">
-			<Generator>ResXFileCodeGenerator</Generator>
-			<LastGenOutput>CleanAyahResource.Designer.cs</LastGenOutput>
-		</EmbeddedResource>
-		<EmbeddedResource Update="UthmaniWithTashkilAyahResource.resx">
-			<Generator>ResXFileCodeGenerator</Generator>
-			<LastGenOutput>UthmaniWithTashkilAyahResource.Designer.cs</LastGenOutput>
-		</EmbeddedResource>
-	</ItemGroup>
+    <ItemGroup>
+        <EmbeddedResource Update="CleanAyahResource.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>CleanAyahResource.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <EmbeddedResource Update="UthmaniWithTashkilAyahResource.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>UthmaniWithTashkilAyahResource.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+    </ItemGroup>
 
 </Project>
