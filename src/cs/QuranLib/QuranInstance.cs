@@ -1,5 +1,5 @@
-﻿using System.Text.RegularExpressions;
-using QuranLib.Blueprints;
+﻿using QuranLib.Blueprints;
+using QuranLib.Extensions;
 
 namespace QuranLib;
 
@@ -41,7 +41,7 @@ public class QuranInstance : IQuranInstance
 
         return chapterNameType switch
         {
-            ChapterNameType.Normal => Utils
+            ChapterNameType.Normal => Utilities
                 .GetEnumList<ChapterName>()
                 .Skip(start - 1)
                 .Take(end - start + 1)
@@ -59,7 +59,7 @@ public class QuranInstance : IQuranInstance
                 .ToList(),
             _ => throw new InvalidEnumArgumentException(
                 nameof(chapterNameType),
-                (int) chapterNameType,
+                (int)chapterNameType,
                 typeof(ChapterNameType)
             ),
         };
@@ -76,26 +76,26 @@ public class QuranInstance : IQuranInstance
         return chapter;
     }
 
-    public Chapter GetChapter(byte chapterNumber) => GetChapter((ChapterName) chapterNumber);
+    public Chapter GetChapter(byte chapterNumber) => GetChapter((ChapterName)chapterNumber);
 
     public ImmutableList<Chapter> GetChapters(ChapterName[] chapterNames) =>
         chapterNames.Select(GetChapter).ToImmutableList();
 
     public ImmutableList<Chapter> GetChapters(IEnumerable<byte> chapterNumbers) =>
-        GetChapters(chapterNumbers.Select(n => (ChapterName) n).ToArray());
+        GetChapters(chapterNumbers.Select(n => (ChapterName)n).ToArray());
 
     public ImmutableList<Chapter> GetChapters() => _chapters.Values.ToImmutableList();
 
     public Verse GetVerse(byte chapter, ushort verseNumber)
     {
-        var chapterName = (ChapterName) chapter;
+        var chapterName = (ChapterName)chapter;
         if (!_verses.ContainsKey(chapterName))
             LoadChapter(chapterName);
         return _verses[chapterName].First(v => v.VerseNumber == verseNumber);
     }
 
     public Verse GetVerse(ChapterName chapter, ushort verseNumber) =>
-        GetVerse((byte) chapter, verseNumber);
+        GetVerse((byte)chapter, verseNumber);
 
     public List<Verse> GetVerses(ChapterName chapter)
     {
@@ -104,11 +104,11 @@ public class QuranInstance : IQuranInstance
         return _verses[chapter].ToList();
     }
 
-    public List<Verse> GetVerses(ushort chapterNumber) => GetVerses((ChapterName) chapterNumber);
+    public List<Verse> GetVerses(ushort chapterNumber) => GetVerses((ChapterName)chapterNumber);
 
     public ImmutableList<Verse> GetVerses(byte chapter, ushort startVerse, ushort endVerse)
     {
-        var chapterName = (ChapterName) chapter;
+        var chapterName = (ChapterName)chapter;
         if (!_verses.ContainsKey(chapterName))
             LoadChapter(chapterName);
         return _verses[chapterName]
@@ -120,13 +120,13 @@ public class QuranInstance : IQuranInstance
         ChapterName chapter,
         ushort startVerse,
         ushort endVerse
-    ) => GetVerses((byte) chapter, startVerse, endVerse);
+    ) => GetVerses((byte)chapter, startVerse, endVerse);
 
     public void LoadChapters(byte start = 1, byte end = 114)
     {
-        for (var i = Math.Max((byte) 1, start); i <= Math.Min((byte) 114, end); i++)
+        for (var i = Math.Max((byte)1, start); i <= Math.Min((byte)114, end); i++)
         {
-            LoadChapter((ChapterName) i);
+            LoadChapter((ChapterName)i);
         }
     }
 
@@ -135,10 +135,10 @@ public class QuranInstance : IQuranInstance
         var res = ScriptType switch
         {
             ScriptType.Clean => CleanAyahResource.ResourceManager.GetString(
-                $"Clean__{(byte) chapterName}_"
+                $"Clean__{(byte)chapterName}_"
             ),
             ScriptType.WithTashkil => UthmaniWithTashkilAyahResource.ResourceManager.GetString(
-                $"Simple__{(byte) chapterName}_"
+                $"Simple__{(byte)chapterName}_"
             ),
             _ => throw new ArgumentOutOfRangeException(nameof(chapterName), "Invalid chapter name"),
         };
@@ -147,7 +147,7 @@ public class QuranInstance : IQuranInstance
             return;
 
         var verses = res.Split("\n")
-            .Select((text, index) => new Verse(chapterName, (ushort) (index + 1), text))
+            .Select((text, index) => new Verse(chapterName, (ushort)(index + 1), text))
             .ToImmutableList();
         _verses[chapterName] = verses;
         _chapters[chapterName].Verses = verses;
@@ -155,7 +155,7 @@ public class QuranInstance : IQuranInstance
 
     public ImmutableList<Verse> FindMatchingVerses(string searchTerm)
     {
-        var cleanSearchTerm = RemoveTashkil(searchTerm);
+        var cleanSearchTerm = searchTerm.RemoveTashkil();
         var results = new List<Verse>();
 
         LoadChapters();
@@ -164,7 +164,8 @@ public class QuranInstance : IQuranInstance
         {
             results.AddRange(
                 verses.Where(verse =>
-                    RemoveTashkil(verse.Text)
+                    verse
+                        .Text.RemoveTashkil()
                         .Contains(cleanSearchTerm, StringComparison.OrdinalIgnoreCase)
                 )
             );
@@ -178,20 +179,12 @@ public class QuranInstance : IQuranInstance
         if (!_verses.ContainsKey(chapterName))
             LoadChapter(chapterName);
 
-        var cleanSearchTerm = RemoveTashkil(searchTerm);
+        var cleanSearchTerm = searchTerm.RemoveTashkil();
 
         return _verses[chapterName]
             .Where(v =>
-                RemoveTashkil(v.Text).Contains(cleanSearchTerm, StringComparison.OrdinalIgnoreCase)
+                v.Text.RemoveTashkil().Contains(cleanSearchTerm, StringComparison.OrdinalIgnoreCase)
             )
             .ToImmutableList();
     }
-
-    /// <summary>
-    /// Remove tashkil from the Arabic text.
-    /// </summary>
-    /// <param name="input"></param>
-    /// <returns></returns>
-    private static string RemoveTashkil(string input) =>
-        Regex.Replace(input, "[\u064B-\u065F]", "");
 }

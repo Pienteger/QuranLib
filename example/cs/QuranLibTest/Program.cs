@@ -1,12 +1,13 @@
 using QuranLib;
+using QuranLib.Enums;
 
-WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args);
 {
     builder.Services.AddRazorPages();
     builder.Services.AddServerSideBlazor();
     builder.Services.AddSingleton(new QuranInstance(ScriptType.WithTashkil));
 }
-WebApplication app = builder.Build();
+var app = builder.Build();
 {
     if (!app.Environment.IsDevelopment())
     {

@@ -16,7 +16,7 @@ public class Verse
 
     public IEnumerable<string> WordByWord => Text.Split(' ');
 
-    public SajdaType SajdaType => Utils.GetSajdaType(Chapter, VerseNumber);
+    public SajdaType SajdaType => Utilities.GetSajdaType(Chapter, VerseNumber);
 
     public override string ToString()
     {
