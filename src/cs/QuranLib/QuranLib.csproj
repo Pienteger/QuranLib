@@ -9,7 +9,7 @@
 		<Version>9.0.1</Version>
 		<Authors>Mahmudul Hasan</Authors>
 		<Company>Pienteger</Company>
-		<Copyright>Copyright © Pienteger 2023</Copyright>
+		<Copyright>Copyright © Pienteger 2025</Copyright>
 		<PackageProjectUrl>https://github.com/Pienteger/QuranLib</PackageProjectUrl>
 		<Description>A portable Quran library that gives access to the entire Holy Quran.</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
