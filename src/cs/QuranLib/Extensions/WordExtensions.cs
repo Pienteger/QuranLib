@@ -11,6 +11,12 @@ public static partial class WordExtensions
     /// <returns></returns>
     public static string RemoveTashkil(this string input) => TashkilRegex().Replace(input, "");
 
+    /// <summary>
+    /// Remove tashkil from the Arabic text and map the normalized index to the original index.
+    /// </summary>
+    /// <param name="input"></param>
+    /// <param name="charMap"></param>
+    /// <returns></returns>
     public static string RemoveTashkilWithMapping(this string input, Dictionary<int, int> charMap)
     {
         StringBuilder normalized = new();
